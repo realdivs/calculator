@@ -2,7 +2,7 @@ import { useState } from "react";
 export const Calculator = () => {
   const [input, setInput] = useState("");
 
-  const handleClear = () => {//clear input
+  const handleClear = () => {
     setInput("");
   };
 
